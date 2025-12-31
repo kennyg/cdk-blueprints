@@ -45,10 +45,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
     },
   },
 
-  // GitHub Actions workflows
-  githubOptions: {
-    mergify: false,
-  },
+  // Disable GitHub Actions workflows (not ready yet)
+  github: false,
 
   // Metadata
   keywords: [
